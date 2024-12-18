@@ -8,5 +8,13 @@ export default {
     extend: {}
   },
 
-  plugins: [typography]
+  plugins: [
+    require('daisyui'),
+    typography
+  ],
+
+  daisyui: {
+    themes: ["light", "dark", "cupcake", "synthwave"],
+  }
+
 };
